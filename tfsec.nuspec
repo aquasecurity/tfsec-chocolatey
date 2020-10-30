@@ -44,7 +44,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <licenseUrl>https://github.com/tfsec/tfsec/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/tfsec/tfsec</projectSourceUrl>
-    <docsUrl>https://github.com/tfsec/tfsec</docsUrl>
+    <docsUrl>https://www.tfsec.dev/docs/home/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/tfsec/tfsec/issues</bugTrackerUrl>
     <tags>terraform tfsec security</tags>
