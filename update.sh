@@ -7,9 +7,9 @@ if [[ -z "${VERSION}" ]]; then
     exit 1
 fi
 
-wget -O /tmp/tfsec-windows-amd64.exe https://github.com/tfsec/tfsec/releases/download/$VERSION/tfsec-windows-amd64.exe 
+wget -O /tmp/tfsec-windows-amd64.exe https://github.com/tfsec/tfsec/releases/download/v$VERSION/tfsec-windows-amd64.exe 
 
 SHA=`shasum -a 256 /tmp/tfsec-windows-amd64.exe | awk '{print $1}'`
 
 sed  "s/{PLACEHOLDER_VERSION}/${VERSION}/g; s/{PLACEHOLDER_SHA}/${SHA}/g;" templates/chocolateyinstall.ps1.template > tools/chocolateyinstall.ps1
-sed "s/{PLACEHOLDER_VERSION}/${VERSION}/g" templates/tfsec.nuspec.template tfsec.nuspec
+sed "s/{PLACEHOLDER_VERSION}/${VERSION}/g" templates/tfsec.nuspec.template > tfsec.nuspec

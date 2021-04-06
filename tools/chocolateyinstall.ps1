@@ -1,9 +1,9 @@
 $ErrorActionPreference = 'Stop'
 
 $packageName = 'tfsec'
-$checksum = 'd7474e36cc1eddd669dc7ed31f131c9acdd770c40afab9ad724c93c40b0b114f'
+$checksum = '96b47d74f2b47f354f350df510e6314436c56181f1454d58cb60028212cca205'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-$version = 'v0.39.19'
+$version = 'v0.39.20'
 $url = "https://github.com/tfsec/tfsec/releases/download/$version/tfsec-windows-amd64.exe"
 $destination = "$toolsPath\tfsec.exe"
 
