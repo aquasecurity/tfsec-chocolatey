@@ -1,0 +1,21 @@
+name: tfsec choco release
+on:
+  push:
+    branch:
+      main
+
+jobs:
+  build:
+    name: releasing tfsec to chocolatey
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: pack the project
+      run: |
+        choco apikey -k ${env:CHOCO_API_KEY} -s https://push.chocolatey.org/
+        choco pack
+        choco push -s https://push.chocolatey.org/
+      env:
+        CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
