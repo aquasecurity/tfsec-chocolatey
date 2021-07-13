@@ -4,7 +4,7 @@ $packageName = 'tfsec'
 $checksum = '{PLACEHOLDER_SHA}'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 $version = 'v{PLACEHOLDER_VERSION}'
-$url = "https://github.com/tfsec/tfsec/releases/download/$version/tfsec-windows-amd64.exe"
+$url = "https://github.com/aquasecurity/tfsec/releases/download/$version/tfsec-windows-amd64.exe"
 $destination = "$toolsPath\tfsec.exe"
 
 Get-ChocolateyWebFile -PackageName $packageName -FileFullPath $destination -Url64bit $url -Checksum64 $checksum -ChecksumType64 sha256
