@@ -4,7 +4,7 @@ version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>tfsec</id>
-        <version>0.51.0</version>
+        <version>0.57.1</version>
         <packageSourceUrl>https://github.com/tfsec/tfsec-chocolatey</packageSourceUrl>
         <owners>tfsec</owners>
         <title>tfsec - static security checks for Terraform</title>
