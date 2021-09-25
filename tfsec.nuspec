@@ -1,27 +1,60 @@
-<?xml
-version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-    <metadata>
-        <id>tfsec</id>
-        <version>0.58.10</version>
-        <packageSourceUrl>https://github.com/tfsec/tfsec-chocolatey</packageSourceUrl>
-        <owners>tfsec</owners>
-        <title>tfsec - static security checks for Terraform</title>
-        <authors>liamg,owen79</authors>
-        <projectUrl>https://tfsec.dev</projectUrl>
-        <iconUrl>https://github.com/tfsec/tfsec/raw/master/logo.png</iconUrl>
-        <licenseUrl>https://github.com/tfsec/tfsec/blob/master/LICENSE</licenseUrl>
-        <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <projectSourceUrl>https://github.com/tfsec/tfsec</projectSourceUrl>
-        <docsUrl>https://tfsec.dev/</docsUrl>
-        <bugTrackerUrl>https://github.com/tfsec/tfsec/issues</bugTrackerUrl>
-        <tags>terraform tfsec security</tags>
-        <summary>Static analysis powered security scanner for your terraform code</summary>
-        <description>tfsec uses static analysis of your terraform templates to spot potential security issues. Now with terraform v0.12+ support.</description>
-        <releaseNotes>https://github.com/tfsec/tfsec/releases</releaseNotes>
-    </metadata>
-    <files>
-        <file src="tools\**" target="tools"/>
-    </files>
+	<metadata>
+		<id>
+			tfsec
+		</id>
+		<version>
+			0.58.10
+		</version>
+		<packageSourceUrl>
+			https://github.com/aquasecurity/tfsec-chocolatey
+		</packageSourceUrl>
+		<owners>
+			aquasecurity
+		</owners>
+		<title>
+			tfsec - static security checks for Terraform
+		</title>
+		<authors>
+			liamg,owen79
+		</authors>
+		<projectUrl>
+			https://tfsec.dev
+		</projectUrl>
+		<iconUrl>
+			https://github.com/aquasecurity/tfsec/raw/master/tfsec.png
+		</iconUrl>
+		<licenseUrl>
+			https://github.com/aquasecurity/tfsec/blob/master/LICENSE
+		</licenseUrl>
+		<requireLicenseAcceptance>
+			true
+		</requireLicenseAcceptance>
+		<projectSourceUrl>
+			https://github.com/aquasecurity/tfsec
+		</projectSourceUrl>
+		<docsUrl>
+			https://tfsec.dev/
+		</docsUrl>
+		<bugTrackerUrl>
+			https://github.com/aquasecurity/tfsec/issues
+		</bugTrackerUrl>
+		<tags>
+			terraform tfsec security
+		</tags>
+		<summary>
+			Static analysis powered security scanner for your terraform code
+		</summary>
+		<description>
+			tfsec uses static analysis of your terraform templates to spot potential security issues. Now with terraform v0.12+ support.
+		</description>
+		<releaseNotes>
+			https://github.com/aquasecurity/tfsec/releases
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
 </package>
