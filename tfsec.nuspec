@@ -6,7 +6,7 @@
 			tfsec
 		</id>
 		<version>
-			1.0.0
+			1.4.2
 		</version>
 		<packageSourceUrl>
 			https://github.com/aquasecurity/tfsec-chocolatey
@@ -21,7 +21,7 @@
 			liamg,owen79
 		</authors>
 		<projectUrl>
-			https://tfsec.dev
+			https://github.com/aquasecurity/tfsec
 		</projectUrl>
 		<iconUrl>
 			https://github.com/aquasecurity/tfsec/raw/master/tfsec.png
@@ -36,7 +36,7 @@
 			https://github.com/aquasecurity/tfsec
 		</projectSourceUrl>
 		<docsUrl>
-			https://tfsec.dev/
+			https://aquasecurity.github.io/tfsec
 		</docsUrl>
 		<bugTrackerUrl>
 			https://github.com/aquasecurity/tfsec/issues
