@@ -6,7 +6,7 @@
 			tfsec
 		</id>
 		<version>
-			1.22.1
+			1.28.1
 		</version>
 		<packageSourceUrl>
 			https://github.com/aquasecurity/tfsec-chocolatey
